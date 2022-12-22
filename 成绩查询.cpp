@@ -3,16 +3,16 @@
 int main()
 {
 	char ch;
-	printf("ÇëÊäÈëÄúµÄ³É¼¨ÆÀ¼¶\n");
-	scanf_s("%d", &ch);
+	printf("è¯·è¾“å…¥æ‚¨çš„æˆç»©è¯„çº§\n");
+	scanf_s("%c", &ch);
 	switch (ch)
 	{
-		case'A':printf("ÄúµÄ³É¼¨ÔÚ90·ÖÒÔÉÏ£¡\n");break;
-		case'B':printf("ÄúµÄ³É¼¨ÔÚ80~90·ÖÖ®¼ä£¡\n");break;
-		case'C':printf("ÄúµÄ³É¼¨ÔÚ70~80·ÖÖ®¼ä£¡\n");break;
-		case'D':printf("ÄúµÄ³É¼¨ÔÚ60~70·ÖÖ®¼ä£¡\n");break;
-		case'E':printf("ÄúµÄ³É¼¨ÔÚ60·ÖÒÔÏÂ£¡\n");break;
-		default:printf("ÇëÊäÈëÕıÈ·µÄ³É¼¨ÆÀ¼¶\n");break;
+		case'A':printf("æ‚¨çš„æˆç»©åœ¨90åˆ†ä»¥ä¸Šï¼\n");break;
+		case'B':printf("æ‚¨çš„æˆç»©åœ¨80~90åˆ†ä¹‹é—´ï¼\n");break;
+		case'C':printf("æ‚¨çš„æˆç»©åœ¨70~80åˆ†ä¹‹é—´ï¼\n");break;
+		case'D':printf("æ‚¨çš„æˆç»©åœ¨60~70åˆ†ä¹‹é—´ï¼\n");break;
+		case'E':printf("æ‚¨çš„æˆç»©åœ¨60åˆ†ä»¥ä¸‹ï¼\n");break;
+		default:printf("è¯·è¾“å…¥æ­£ç¡®çš„æˆç»©è¯„çº§\n");break;
 	}
 	return 0;
 }
